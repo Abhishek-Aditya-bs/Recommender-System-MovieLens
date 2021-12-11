@@ -8,7 +8,8 @@ Recommender systems are really critical in some industries as they can generate 
 # Types Of Recommender Systems
 ![](./types.png)
 
-1. Collaborative Filtering Models
+1. **Collaborative Filtering Models**
+
 The basic idea of collaborative filtering methods is that these unspecified ratings can
 be imputed.
 Leverage either inter-item correlations or inter-user correlations for the prediction
@@ -17,10 +18,10 @@ process. Some models also use both types of correlations. Two types of methods t
 Ratings of user-item combinations are predicted on the basis of their neighborhoods.
 These neighborhoods can be defined in one of two ways:
 
-i) User-based Collaborative filtering: The ratings provided by the like-minded users
+i) _User-based Collaborative filtering_: The ratings provided by the like-minded users
 of a target user A are used in order to make the recommendations for A.
 
-ii) Item-based collaborative filtering: To make the rating predictions for target item
+ii) _Item-based collaborative filtering_: To make the rating predictions for target item
 B by user A, the first step is to determine a set S of items that are most similar to
 target item B.
 
@@ -34,26 +35,26 @@ Machine learning and data mining methods are used in the
 context of predictive models.
 Examples: Decision trees, Rule-based models, Bayesian methods and latent factor models.
 
-2. Content-Based Recommender Systems
+2. **Content-Based Recommender Systems**
 
 Content-based systems are dependent on two sources of data:
 
-● Description of various items in terms of content-centric attributes.
+- Description of various items in terms of content-centric attributes.
 
-● User profile, which is generated from user feedback about various items.
+- User profile, which is generated from user feedback about various items.
 
 Used in scenarios in which a significant amount of attribute information is available at hand.
 
 ### How do Content Based Recommender Systems work?
 ![](./workflow.png)
 
-● Preprocessing and feature extraction
+- Preprocessing and feature extraction
 
-● Content-based learning of user profiles
+- Content-based learning of user profiles
 
-● Filtering and recommendation
+- Filtering and recommendation
 
-3. Hybrid Models 
+3. **Hybrid Models**
 
 Use both Content Based and Collabrative Filtering techniques to get the best results.
 
